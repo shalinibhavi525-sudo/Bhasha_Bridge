@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>BhashaBridge</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>■ BhashaBridge</h1>
+ <div id="translator">
+ <select id="sourceLang">
+ <option value="hi">Hindi</option>
+ <option value="en">English</option>
+ <option value="ta">Tamil</option>
+ <option value="bn">Bengali</option>
+ </select>
+ <select id="targetLang">
+ <option value="en">English</option>
+ <option value="hi">Hindi</option>
+ <option value="ta">Tamil</option>
+ <option value="bn">Bengali</option>
+ </select>
+ <textarea id="sourceText" placeholder="Type or paste a phrase..."></textarea><br>
+ <button onclick="translateText()">Translate</button>
+ <button onclick="speakText('sourceText')">■ Speak Source</button>
+ <h3>Translation:</h3>
+ <p id="result"></p>
+ <button onclick="speakText('result')">■ Speak Translation</button>
+ </div>
+ <script src="script.js"></script>
+</body>
+                                                           </html>
