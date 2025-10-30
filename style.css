@@ -1,0 +1,28 @@
+body {
+ font-family: "Poppins", sans-serif;
+ background: #eef3ff;
+ text-align: center;
+ padding: 40px;
+ color: #333;
+}
+#translator {
+ background: #fff;
+ border-radius: 12px;
+ padding: 20px;
+ width: 340px;
+ margin: auto;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+textarea, select, button {
+ width: 80%;
+ margin: 6px;
+ padding: 10px;
+ border-radius: 8px;
+ border: 1px solid #ccc;
+}
+button {
+ background-color: #6a80ff;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
